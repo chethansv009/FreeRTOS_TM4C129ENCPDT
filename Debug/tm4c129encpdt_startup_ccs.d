@@ -15,6 +15,9 @@ tm4c129encpdt_startup_ccs.obj: D:/freeRtos/workspace/FreeRTOS_project/ThirdParty
 tm4c129encpdt_startup_ccs.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stddef.h
 tm4c129encpdt_startup_ccs.obj: D:/freeRtos/workspace/FreeRTOS_project/FreeRTOSConfig.h
 tm4c129encpdt_startup_ccs.obj: D:/freeRtos/workspace/FreeRTOS_project/Core/Inc/AppInterface.h
+tm4c129encpdt_startup_ccs.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h
+tm4c129encpdt_startup_ccs.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
+tm4c129encpdt_startup_ccs.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdbool.h
 tm4c129encpdt_startup_ccs.obj: D:/freeRtos/workspace/FreeRTOS_project/ThirdParty/FreeRTOS/Source/include/projdefs.h
 tm4c129encpdt_startup_ccs.obj: D:/freeRtos/workspace/FreeRTOS_project/ThirdParty/FreeRTOS/Source/include/portable.h
 tm4c129encpdt_startup_ccs.obj: D:/freeRtos/workspace/FreeRTOS_project/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h
@@ -50,6 +53,12 @@ C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stddef.h:
 D:/freeRtos/workspace/FreeRTOS_project/FreeRTOSConfig.h:
 
 D:/freeRtos/workspace/FreeRTOS_project/Core/Inc/AppInterface.h:
+
+C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
+
+C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
+
+C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdbool.h:
 
 D:/freeRtos/workspace/FreeRTOS_project/ThirdParty/FreeRTOS/Source/include/projdefs.h:
 

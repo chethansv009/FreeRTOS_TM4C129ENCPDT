@@ -7,6 +7,6 @@
 
 extern void vAssertCalled(char *FileName, uint32_t LineNum);
 extern int taskExamples(void);
-extern int queueExamples(void);
+extern void queueExamples(void);
 
 #endif

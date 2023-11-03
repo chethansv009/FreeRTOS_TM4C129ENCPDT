@@ -15,6 +15,9 @@ ThirdParty/FreeRTOS/Source/croutine.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt
 ThirdParty/FreeRTOS/Source/croutine.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/sys/_stdint.h
 ThirdParty/FreeRTOS/Source/croutine.obj: D:/freeRtos/workspace/FreeRTOS_project/FreeRTOSConfig.h
 ThirdParty/FreeRTOS/Source/croutine.obj: D:/freeRtos/workspace/FreeRTOS_project/Core/Inc/AppInterface.h
+ThirdParty/FreeRTOS/Source/croutine.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h
+ThirdParty/FreeRTOS/Source/croutine.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
+ThirdParty/FreeRTOS/Source/croutine.obj: C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdbool.h
 ThirdParty/FreeRTOS/Source/croutine.obj: D:/freeRtos/workspace/FreeRTOS_project/ThirdParty/FreeRTOS/Source/include/projdefs.h
 ThirdParty/FreeRTOS/Source/croutine.obj: D:/freeRtos/workspace/FreeRTOS_project/ThirdParty/FreeRTOS/Source/include/portable.h
 ThirdParty/FreeRTOS/Source/croutine.obj: D:/freeRtos/workspace/FreeRTOS_project/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h
@@ -54,6 +57,12 @@ C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/sys/_stdint.h:
 D:/freeRtos/workspace/FreeRTOS_project/FreeRTOSConfig.h:
 
 D:/freeRtos/workspace/FreeRTOS_project/Core/Inc/AppInterface.h:
+
+C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
+
+C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
+
+C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdbool.h:
 
 D:/freeRtos/workspace/FreeRTOS_project/ThirdParty/FreeRTOS/Source/include/projdefs.h:
 
