@@ -19,26 +19,59 @@ uint32_t Data[] = {10, 15, 19, 21, 9};
 
 uint32_t uxBuffer[QUEUE_LENGTH];
 
+uint32_t peakElement;
+
+
+//Functions that will operate on the queue
 void qCreate(void);
 void qSendToBack();
 void qSendToFront();
+void qNumMsgInBuffer();
 void qReceive(void);
 void qDelete(void);
+void qPeakElement(void);
 
 
 void queueExamples()
 {
+    //create a queue
     qCreate();
 
-//    qSendToBack();
+    //Add the elements to the queue back side
+    qSendToBack();
 
+    //Add the elemts to the queue front side
     qSendToFront();
 
+    //Number of elements in a queue
+    qNumMsgInBuffer();
+
+    //First or peak elements on the queue
+    qPeakElement();
+
+    //Pop or recieve the elements from the queue
     qReceive();
 
+    //Delete the queue
     qDelete();
 
     while(1);
+}
+
+void qPeakElement(void)
+{
+    if(qHandle != NULL)
+    {
+        if ( xQueuePeek(qHandle, &peakElement, ( TickType_t )10 ) == pdPASS )
+        {
+            puts("Peak elements is copied \n");
+        }
+    }
+}
+
+void qNumMsgInBuffer()
+{
+    uint32_t msgNum = uxQueueMessagesWaiting(qHandle);
 }
 
 void qCreate()

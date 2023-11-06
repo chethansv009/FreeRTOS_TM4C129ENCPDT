@@ -5,7 +5,7 @@
  *      Author: LENOVO
  */
 
-#include "AppInterface.h"
+#include "Appinterface.h"
 
 int main()
 {
@@ -16,6 +16,17 @@ int main()
     queueExamples();
 
     return 0;
+}
+
+void vAssertCalled(char *FileName, uint32_t LineNum)
+{
+   puts("Fault Handler");
+   fflush(stdout);
+
+   puts(FileName);
+   fflush(stdout);
+
+   while(1);
 }
 
 

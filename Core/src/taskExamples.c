@@ -88,10 +88,4 @@ void Task2Handler()
     }
 }
 
-void vAssertCalled(char *FileName, uint32_t LineNum)
-{
-   puts("Fault Handler");
-   fflush(stdout);
-   taskDISABLE_INTERRUPTS();
-   while(1);
-}
+
