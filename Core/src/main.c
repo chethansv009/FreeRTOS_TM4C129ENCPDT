@@ -13,7 +13,9 @@ int main()
     // Comment taskExample to check other functionalities because it's running in infinite loop
 //    taskExamples();
 
-    queueExamples();
+//    queueExamples();
+
+    semaphoreExamples();
 
     return 0;
 }

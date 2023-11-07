@@ -13,6 +13,7 @@ ORDERED_OBJS += \
 "./tm4c129encpdt_startup_ccs.obj" \
 "./Core/src/main.obj" \
 "./Core/src/queueExamples.obj" \
+"./Core/src/semaphoreExamples.obj" \
 "./Core/src/taskExamples.obj" \
 "./Driverlib/cpu.obj" \
 "./Driverlib/eeprom.obj" \
@@ -171,8 +172,8 @@ FreeRTOS_project.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "tm4c129encpdt_startup_ccs.obj" "Core\src\main.obj" "Core\src\queueExamples.obj" "Core\src\taskExamples.obj" "Driverlib\cpu.obj" "Driverlib\eeprom.obj" "Driverlib\flash.obj" "Driverlib\gpio.obj" "Driverlib\interrupt.obj" "Driverlib\sysctl.obj" "Driverlib\systick.obj" "Driverlib\timer.obj" "ThirdParty\FreeRTOS\Source\croutine.obj" "ThirdParty\FreeRTOS\Source\event_groups.obj" "ThirdParty\FreeRTOS\Source\list.obj" "ThirdParty\FreeRTOS\Source\queue.obj" "ThirdParty\FreeRTOS\Source\tasks.obj" "ThirdParty\FreeRTOS\Source\timers.obj" "ThirdParty\FreeRTOS\Source\portable\CCS\ARM_CM4F\port.obj" "ThirdParty\FreeRTOS\Source\portable\CCS\ARM_CM4F\portasm.obj" "ThirdParty\FreeRTOS\Source\portable\MemMang\heap_4.obj" 
-	-$(RM) "tm4c129encpdt_startup_ccs.d" "Core\src\main.d" "Core\src\queueExamples.d" "Core\src\taskExamples.d" "Driverlib\cpu.d" "Driverlib\eeprom.d" "Driverlib\flash.d" "Driverlib\gpio.d" "Driverlib\interrupt.d" "Driverlib\sysctl.d" "Driverlib\systick.d" "Driverlib\timer.d" "ThirdParty\FreeRTOS\Source\croutine.d" "ThirdParty\FreeRTOS\Source\event_groups.d" "ThirdParty\FreeRTOS\Source\list.d" "ThirdParty\FreeRTOS\Source\queue.d" "ThirdParty\FreeRTOS\Source\tasks.d" "ThirdParty\FreeRTOS\Source\timers.d" "ThirdParty\FreeRTOS\Source\portable\CCS\ARM_CM4F\port.d" "ThirdParty\FreeRTOS\Source\portable\MemMang\heap_4.d" 
+	-$(RM) "tm4c129encpdt_startup_ccs.obj" "Core\src\main.obj" "Core\src\queueExamples.obj" "Core\src\semaphoreExamples.obj" "Core\src\taskExamples.obj" "Driverlib\cpu.obj" "Driverlib\eeprom.obj" "Driverlib\flash.obj" "Driverlib\gpio.obj" "Driverlib\interrupt.obj" "Driverlib\sysctl.obj" "Driverlib\systick.obj" "Driverlib\timer.obj" "ThirdParty\FreeRTOS\Source\croutine.obj" "ThirdParty\FreeRTOS\Source\event_groups.obj" "ThirdParty\FreeRTOS\Source\list.obj" "ThirdParty\FreeRTOS\Source\queue.obj" "ThirdParty\FreeRTOS\Source\tasks.obj" "ThirdParty\FreeRTOS\Source\timers.obj" "ThirdParty\FreeRTOS\Source\portable\CCS\ARM_CM4F\port.obj" "ThirdParty\FreeRTOS\Source\portable\CCS\ARM_CM4F\portasm.obj" "ThirdParty\FreeRTOS\Source\portable\MemMang\heap_4.obj" 
+	-$(RM) "tm4c129encpdt_startup_ccs.d" "Core\src\main.d" "Core\src\queueExamples.d" "Core\src\semaphoreExamples.d" "Core\src\taskExamples.d" "Driverlib\cpu.d" "Driverlib\eeprom.d" "Driverlib\flash.d" "Driverlib\gpio.d" "Driverlib\interrupt.d" "Driverlib\sysctl.d" "Driverlib\systick.d" "Driverlib\timer.d" "ThirdParty\FreeRTOS\Source\croutine.d" "ThirdParty\FreeRTOS\Source\event_groups.d" "ThirdParty\FreeRTOS\Source\list.d" "ThirdParty\FreeRTOS\Source\queue.d" "ThirdParty\FreeRTOS\Source\tasks.d" "ThirdParty\FreeRTOS\Source\timers.d" "ThirdParty\FreeRTOS\Source\portable\CCS\ARM_CM4F\port.d" "ThirdParty\FreeRTOS\Source\portable\MemMang\heap_4.d" 
 	-$(RM) "ThirdParty\FreeRTOS\Source\portable\CCS\ARM_CM4F\portasm.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

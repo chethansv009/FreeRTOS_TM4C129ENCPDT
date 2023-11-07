@@ -1,6 +1,7 @@
 "./tm4c129encpdt_startup_ccs.obj"
 "./Core/src/main.obj"
 "./Core/src/queueExamples.obj"
+"./Core/src/semaphoreExamples.obj"
 "./Core/src/taskExamples.obj"
 "./Driverlib/cpu.obj"
 "./Driverlib/eeprom.obj"
